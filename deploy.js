@@ -87,7 +87,7 @@ function sshConnect() {
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
       host: '3.95.222.46',
       username: 'ubuntu',
-      privateKey: 'todo-key.pem'
+      privateKey: 'sna-key.pem'
     })
     .then(function() {
       console.log('SSH Connection established.');
